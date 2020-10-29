@@ -1,0 +1,6 @@
+{
+    "home": "[DIRECTORY OF REPO]",
+    "raw": "/data/train-balanced-sarcasm.csv",
+    "clean": "/data/data.csv",
+    "distilber": "/data/distilbert"
+}

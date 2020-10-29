@@ -1,0 +1,6 @@
+data/*.csv
+data/*.txt
+
+**/__pycache__
+
+!/data/.gitkeep
