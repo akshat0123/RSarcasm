@@ -17,4 +17,5 @@ Code must be run in the following order in order to produce sarcasm detection tr
 1. `clean.py`
 2. `train.py`
 3. `test.py`
+
 Results of `train.py` and `test.py` will appear in the command prompt once the training and testing processes have completed.
