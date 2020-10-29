@@ -1,11 +1,8 @@
 # Reddit Sarcasm Detection with Distilbert
-This repository contains source code for detecting sarcasm in reddit comments.  
-The dataset used in this analysis is available [here](https://www.kaggle.com/danofer/sarcasm) on kaggle.  
+This repository contains source code for detecting sarcasm in reddit comments. The dataset used in this analysis is available [here](https://www.kaggle.com/danofer/sarcasm) on kaggle.  
 
 ### Requirements
-`SARC.yaml` contains a conda environment containing all required python packages needed to run the source code.  
-`paths.json` lists all the filepaths used in running the source code. The `home` filepath must be filled in prior to running source code.  
-The `train-balanced-sarcasm.csv` file from the [dataset](https://www.kaggle.com/danofer/sarcasm) must be placed in the `data` directory prior to running source code.  
+`SARC.yaml` contains a conda environment containing all required python packages needed to run the source code. `paths.json` lists all the filepaths used in running the source code. The `home` filepath must be filled in prior to running source code. The `train-balanced-sarcasm.csv` file from the [dataset](https://www.kaggle.com/danofer/sarcasm) must be placed in the `data` directory prior to running source code.  
 
 ### Source Code
 - `bert.py`: Contains a wrapper class for the [huggingface](https://huggingface.co/) transformers DistilBert implementation.
